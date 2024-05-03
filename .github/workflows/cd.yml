@@ -16,6 +16,6 @@ jobs:
         run: npm run build 
       - name: Semantic release
         env:
-          GITHUB_TOKEN: ${{ secrets.naruto }}
-          NPM_TOKEN: ${{ secrets.secret }}
+          GITHUB_TOKEN: ${{ secrets.NARUTO }}
+          NPM_TOKEN: ${{ secrets.SECRET }}
         run: npx semantic-release@21.0.2
