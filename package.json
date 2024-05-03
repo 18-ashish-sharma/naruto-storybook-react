@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -67,7 +69,5 @@
     "@semantic-release/github",
     "@semantic-release/npm",
     "@semantic-release/git"
-  ],
-  "release": {
-    "branches": ["master", "test"]  }
+  ]
 }
